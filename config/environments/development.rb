@@ -1,6 +1,8 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
+  ENV['GOOGLE_OAUTH_CLIENT_ID'] 
+  ENV['GOOGLE_OAUTH_CLIENT_SECRET'] 
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Make code changes take effect immediately without server restart.
